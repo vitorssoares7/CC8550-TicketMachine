@@ -19,7 +19,7 @@ class Troco {
                 count++;
             }
 
-            return false;
+            return count;
         }
 
         protected int[] papelMoeda = {2, 5, 10, 20, 50, 100};
@@ -44,19 +44,9 @@ class Troco {
         }
 
         @Override
-        public boolean hasNext() {
-            for (int i = 6; i >= 0; i++) {
-                if (troco.papeisMoeda[i] != null) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        @Override
         public PapelMoeda next() {
-            PapelMoeda ret = null;
-            for (int i = 6; i >= 0 && ret != null; i++) {
+            PapelMoeda ret = troco.papeisMoeda[5];
+            for (int i = 6; i >= 0 && ret != null; i--) {
                 if (troco.papeisMoeda[i] != null) {
                     ret = troco.papeisMoeda[i];
                     troco.papeisMoeda[i] = null;
