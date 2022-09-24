@@ -1,3 +1,20 @@
 # CC8550-TicketMachine
 
-Laborátorio 3 da matéria de Simulação e teste de software com objetivo de corrigir os defeitos do código disponibilizado.
+Projeto de um sistema de emissão de bilhetes utilizados em estações de trem.
+
+## Getting started
+
+- Você deve ter uma versão do Java instalada em sua máquina.
+  
+  Caso não possua clique no link abaixo para ser direcionado a página de instalação.
+  
+  [a link](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
+  
+- Clone este repositório
+- Rode o executavel dentro da maquina de caixa que irá server de terminal.
+
+
+## Desenvolvedores:
+
+Bruno Brigide - 22.119.047-3
+Vitor dos Santos e Silva Soares - 22.119.043-2
